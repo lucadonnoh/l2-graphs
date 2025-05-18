@@ -11227,7 +11227,7 @@ var PALETTE = [
   "#84cc16"
   // chartreuse
 ];
-var DEFAULT_COLOR2 = "#6b7280";
+var DEFAULT_COLOR2 = "#6b72b8";
 var menu = document.getElementById("menu");
 var sigmaDiv = document.getElementById("sigma");
 var renderer = null;
@@ -11277,6 +11277,11 @@ function renderGraph(data) {
   sccs.forEach((comp, i) => {
     const color = comp.length > 1 ? PALETTE[i % PALETTE.length] : DEFAULT_COLOR2;
     comp.forEach((n) => graph.setNodeAttribute(n, "color", color));
+  });
+  graph.forEachNode((n, attr) => {
+    if (attr.label === "") {
+      graph.setNodeAttribute(n, "color", "#cbd2f0");
+    }
   });
   const hasIncoming = Array(sccs.length).fill(false);
   graph.forEachEdge((_e, _attr, s, t) => {
@@ -11346,3 +11351,4 @@ export {
   DEFAULT_COLOR2 as DEFAULT_COLOR,
   PALETTE
 };
+//# sourceMappingURL=main.js.map

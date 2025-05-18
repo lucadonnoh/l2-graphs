@@ -17,7 +17,8 @@ export const PALETTE = [
   "#a855f7",  // purple-indigo (but well away from grey-blue)
   "#84cc16",  // chartreuse
 ] as const;
-export const DEFAULT_COLOR = "#6b7280";
+// export const DEFAULT_COLOR = "";
+export const DEFAULT_COLOR = "#6b72b8"
 
 // ---------- build the sidebar ----------
 const menu = document.getElementById("menu")!;
@@ -84,6 +85,8 @@ function renderGraph(data: GraphNode[]): Sigma {
     graph.setNodeAttribute(n, "size", 4 + graph.inDegree(n)),
   );
 
+
+
   /* ---------- SCC colouring ---------- */
   const sccs = stronglyConnectedComponents(graph);
   const sccIdByNode = new Map<string, number>();
@@ -94,6 +97,13 @@ function renderGraph(data: GraphNode[]): Sigma {
     const color = comp.length > 1 ? PALETTE[i % PALETTE.length] : DEFAULT_COLOR;
     comp.forEach(n => graph.setNodeAttribute(n, "color", color));
   });
+
+  graph.forEachNode((n, attr) => {
+    if (attr.label === "") {
+      graph.setNodeAttribute(n, "color", "#cbd2f0");
+    }
+  });
+
   /* mark minimal sources in gold outline & bump size */
   const hasIncoming: boolean[] = Array(sccs.length).fill(false);
   graph.forEachEdge((_e, _attr, s, t) => {
