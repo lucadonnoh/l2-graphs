@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>L2BEAT • Contract-Graph Explorer</title>
+
+    <!--  Google Font  ------------------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  Styles  ---------------------------------------------------------------------->
+    <style>
+      :root {
+        /* brand palette */
+        --c-primary: #2563eb; /* indigo-600 */
+        --c-primary-hover: #1e40af;
+        --c-bg: #f9fafb; /* gray-50 */
+        --c-bg-secondary: #ffffff;
+        --c-divider: #e5e7eb; /* gray-200 */
+        --c-text: #111827; /* gray-900 */
+        --c-text-muted: #6b7280; /* gray-500 */
+        --c-scrollbar: #cbd5e1; /* slate-300 */
+      }
+
+      /*  Global reset  */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        color: var(--c-text);
+        background: var(--c-bg);
+      }
+
+      /*  App layout  ----------------------------------------------------------------*/
+      #app {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid var(--c-divider);
+        background: var(--c-bg-secondary);
+      }
+      header h1 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 1.4;
+      }
+
+      /*  content row */
+      #content {
+        flex: 1 1 auto;
+        display: flex;
+        overflow: hidden;
+        min-height: 0; /* ⚠️ Safari fix */
+      }
+
+      /*  sidebar menu  */
+      #menu {
+        width: 220px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0.5rem 1rem;
+        overflow-y: auto;
+        border-right: 1px solid var(--c-divider);
+        background: var(--c-bg-secondary);
+        scrollbar-width: thin;
+      }
+      /* custom scrollbar (webkit) */
+      #menu::-webkit-scrollbar {
+        width: 6px;
+      }
+      #menu::-webkit-scrollbar-thumb {
+        background: var(--c-scrollbar);
+        border-radius: 3px;
+      }
+
+      #menu button {
+        all: unset;
+        cursor: pointer;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin: 2px 0;
+        border-radius: 6px;
+        font-size: 0.925rem;
+        color: var(--c-text);
+        transition: background 120ms, color 120ms;
+      }
+      #menu button:hover {
+        background: var(--c-primary / 0.08);
+      }
+      #menu button.active {
+        background: var(--c-primary);
+        color: #fff;
+      }
+
+      /*  graph container  */
+      #sigma {
+        flex: 1 1 auto;
+        position: relative;
+        background: #ffffff;
+      }
+      /* pointer while interacting with nodes */
+      .sigma-mouse {
+        cursor: pointer;
+      }
+
+      /*  subtle fade-in for graph when reloaded  */
+      #sigma canvas {
+        animation: fadeIn 250ms ease-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /*  tooltip (Sigma default has none)  */
+      .tooltip {
+        position: absolute;
+        pointer-events: none;
+        padding: 0.25rem 0.5rem;
+        background: rgba(17, 24, 39, 0.85);
+        color: #fff;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        white-space: nowrap;
+        transform: translate(-50%, -120%);
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <!-- simple logo mark -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--c-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12l2-2 4 4 8-8 4 4" /></svg>
+        <h1>Contract-Graph Explorer</h1>
+      </header>
+
+      <div id="content">
+        <nav id="menu"></nav>
+        <div id="sigma"></div>
+      </div>
+    </div>
+
+    <!--  we rely on Bun’s on-the-fly TS bundling  -->
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
+
+

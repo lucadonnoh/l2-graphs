@@ -1,0 +1,505 @@
+[
+  {
+    "name": "ZkEvmVerifierPostEuclid",
+    "id": "0x0112315fa1c81c35ac9a477e161b52ae4d1466b3",
+    "next": [
+      "0xd1638c0c7bd6bf49d655d855d353ac8b4f949582"
+    ]
+  },
+  {
+    "name": "PlonkVerifierV1-1",
+    "id": "0x03a72b00d036c479105ff98a1953b15d9c510110",
+    "next": []
+  },
+  {
+    "name": "TimelockSCEmergency",
+    "id": "0x0cd4c0f24a0a9f3e2fe80ed385d8ad5a2ffeca44",
+    "next": [
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0x1a37bf1ccbf570c92fe2239fefaaaf861c2924dd",
+      "0x1ff1fc1bb4d1f081f6e0a7e7e3240f3ecc5b236f"
+    ]
+  },
+  {
+    "name": "TimelockFast",
+    "id": "0x0e58939204eeda84f796fbc86840a50af10ec4f4",
+    "next": [
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xefc9d1096fb65c832207e5e7f13c2d1102244dbe",
+      "0x1ff1fc1bb4d1f081f6e0a7e7e3240f3ecc5b236f"
+    ]
+  },
+  {
+    "name": "GnosisSafeL2",
+    "id": "0x11cd09a0c5b1dc674615783b0772a9bfd53e3a8f",
+    "next": [
+      "0x3e5c63644e683549055b9be8653de26e0b4cd36e",
+      "0xa0895ef86b766afd455fdb129a830a1c6ce054a1",
+      "0x7742637569ce1dd9aa9f4f91eaac7c028c5e1f4d",
+      "0xbb2491befbd46cf26f7e9b9dec16e0c31f9c5ae3",
+      "0x6626593c237f530d15ae9980a95ef938ac15c35c",
+      "0xb3dd2ca3f575fcdd79f5cd45c5a6c9db860f3e4d",
+      "0xb01474b50382fae1a847e3a916ecdf07ba57bcc7",
+      "0x9106372987a14400f283bc1afc122a57130c18a3",
+      "0xdd659911ecbd4458db07ee7cddec79bf8f859abc",
+      "0x218c720079833e0e40a3cc68cd5fa2f89d65d0bf",
+      "0xa28b7d23e9f8d8d5346a7901ecc9ec8ea48baecd",
+      "0x93738d2ad25678bae4f467ffad2c5a4c4c79658a",
+      "0x32e8b0b9783d65170fd37f79079d5707107ccc62"
+    ]
+  },
+  {
+    "name": "Scroll Security Council",
+    "id": "0x1a37bf1ccbf570c92fe2239fefaaaf861c2924dd",
+    "next": [
+      "0x0cd4c0f24a0a9f3e2fe80ed385d8ad5a2ffeca44",
+      "0x3f9041350b661c74c6cbe440c8bd6bc4c168a9fd",
+      "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "0x0f50874f227621dea72482004639a9ffe440a4da",
+      "0x70dfdae47e29d2c40ee58cefa7379588b421a86d",
+      "0xe47d966e2c7e94fc20ffaf5119d1926381c40f2a",
+      "0x9b2c2bc80c209c9c5d7f26f57b1bb3b1699281d4",
+      "0x8edc4eadee120d4c51923c515e7c3241c815c2bc",
+      "0x30315233090f675520eef5cbd7a6cf7d185af443",
+      "0x9479abfebefeea3c846163012a472b44f305b3d7",
+      "0x383c148ba96956f985f6141b2d119add1c34e3b7",
+      "0xc3ea7c657884bb380b66d79c36adcb5658b01896",
+      "0x69c2ed64171bf5737c2b78bdf722e68a032b2825",
+      "0x11cd09a0c5b1dc674615783b0772a9bfd53e3a8f",
+      "0xfb77d22ed83f42922f9542e39dcfa9f8c47fdaff"
+    ]
+  },
+  {
+    "name": "Scroll Multisig 1",
+    "id": "0x1ff1fc1bb4d1f081f6e0a7e7e3240f3ecc5b236f",
+    "next": [
+      "0x0cd4c0f24a0a9f3e2fe80ed385d8ad5a2ffeca44",
+      "0x0e58939204eeda84f796fbc86840a50af10ec4f4",
+      "0x3f9041350b661c74c6cbe440c8bd6bc4c168a9fd",
+      "0x826714add4dda2b8750794a467c892c0cd49216b",
+      "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "0xee9bb388d320f4305af6a4a1a70c862d3f4d0d5b",
+      "0xfcf1f182fc79047d99e5db0d7113c0efe2ec9402",
+      "0x0c5cc5155b346453154059ad9d2ff695db92f774",
+      "0x26ecec198adc0be598311bae8edfd4eea47a56c5"
+    ]
+  },
+  {
+    "name": "PlonkVerifierV1",
+    "id": "0x2293cd12e8564e8219d314b075867c2f66ac6941",
+    "next": []
+  },
+  {
+    "name": "ZkEvmVerifierV2",
+    "id": "0x2d6e16d8e8a0c3bc7750e774b108ec39ab0c18fb",
+    "next": [
+      "0x8759e83b6570a0ba46c3ce7eb359f354f816c9a9"
+    ]
+  },
+  {
+    "name": "ZkEvmVerifierPostEuclid",
+    "id": "0x33996cc9eee2dc20b10b8e57d313d0facc7a0828",
+    "next": [
+      "0x9f66505cb1626d06b50ef2597f41de6686e8f79a"
+    ]
+  },
+  {
+    "name": "TimelockSCSlow",
+    "id": "0x3f9041350b661c74c6cbe440c8bd6bc4c168a9fd",
+    "next": [
+      "0x1a37bf1ccbf570c92fe2239fefaaaf861c2924dd",
+      "0x1ff1fc1bb4d1f081f6e0a7e7e3240f3ecc5b236f"
+    ]
+  },
+  {
+    "name": "ZkEvmVerifierV1",
+    "id": "0x4b289e4a5331bafbc6ccb2f10c39b8edcecdb247",
+    "next": [
+      "0x2293cd12e8564e8219d314b075867c2f66ac6941"
+    ]
+  },
+  {
+    "name": "PlonkVerifierV0",
+    "id": "0x4b8aa8a96078689384dab49691e9ba51f9d2f9e1",
+    "next": []
+  },
+  {
+    "name": "MultipleVersionRollupVerifier",
+    "id": "0x4cea3e866e7c57fd75cb0ca3e9f5f1151d4ead3f",
+    "next": [
+      "0x585dfad7bf4099e011d185e266907a8ab60dad2d",
+      "0x4b289e4a5331bafbc6ccb2f10c39b8edcecdb247",
+      "0x63fb51c55d9605a75f8872c80de260a00facfaa2",
+      "0x2d6e16d8e8a0c3bc7750e774b108ec39ab0c18fb",
+      "0xcaecee2e815e7f758c2477f900afa14bddce54b3",
+      "0x0112315fa1c81c35ac9a477e161b52ae4d1466b3",
+      "0x33996cc9eee2dc20b10b8e57d313d0facc7a0828",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6"
+    ]
+  },
+  {
+    "name": "L1MessageQueueV2",
+    "id": "0x56971da63a3c0205184fef096e9ddfc7a8c2d18a",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xefa158006b072793a49e622b26761cd0ec38591d",
+      "0xfaf8f72e54d1089fa1882b6f597bfdff59a8afca",
+      "0x72cacbcfde2d1e19122f8a36a4d6676cd39d7a5d",
+      "0x0d7e906bd9cafa154b048cfa766cc1e54e39af9b",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xa13baf47339d63b743e7da8741db5456dac1e556",
+      "0x8432728a257646449245558b8b7dbe51a16c7a4d"
+    ]
+  },
+  {
+    "name": "ZkEvmVerifierV0",
+    "id": "0x585dfad7bf4099e011d185e266907a8ab60dad2d",
+    "next": [
+      "0x4b8aa8a96078689384dab49691e9ba51f9d2f9e1"
+    ]
+  },
+  {
+    "name": "L1ERC721Gateway",
+    "id": "0x6260af48e8948617b8fa17f4e5cea2d21d21554b",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xd1841c5756428812233eea78afc17cb2d3e392bb",
+      "0xde3be7c2aa151d1e152ddfcbf0962fcdf5323dae",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0x0000000000000000000000000000000000000000"
+    ]
+  },
+  {
+    "name": "ZkEvmVerifierV1-1",
+    "id": "0x63fb51c55d9605a75f8872c80de260a00facfaa2",
+    "next": [
+      "0x03a72b00d036c479105ff98a1953b15d9c510110"
+    ]
+  },
+  {
+    "name": "wstETHescrowLido",
+    "id": "0x6625c6332c9f91f2d27c304e729b86db87a3f504",
+    "next": [
+      "0xcc2c53556bc75217cf698721b29071d6f12628a9",
+      "0xf4f2066ee72d62e3caf9678459149ba7fcf2262f",
+      "0xbad002fb13adffcbcba57a4d4a43886f3f4c56cb",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x3e40d73eb977dc6a537af587d48316fee66e9c8c",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "DaiEscrow",
+    "id": "0x67260a8b73c5b77b55c1805218a42a7a6f98f515",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xbad002fb13adffcbcba57a4d4a43886f3f4c56cb",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "L1ScrollMessenger",
+    "id": "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x84791281ef5cb8af5dcd4c122f7a42fed38fef5b",
+      "0xaf2f898a8680cb52766abe0588ebe6b9bfe37845",
+      "0x72981fd00087ff4f60abfde9f353cb1912a37fb6",
+      "0xc6326109e33465d6d61e4cb7afce7b1be7cff868",
+      "0x72cacbcfde2d1e19122f8a36a4d6676cd39d7a5d",
+      "0x8fa3b4570b4c96f8036c13b64971ba65867eeb48",
+      "0x0d7e906bd9cafa154b048cfa766cc1e54e39af9b",
+      "0x56971da63a3c0205184fef096e9ddfc7a8c2d18a",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xa13baf47339d63b743e7da8741db5456dac1e556"
+    ]
+  },
+  {
+    "name": "Safe",
+    "id": "0x69c2ed64171bf5737c2b78bdf722e68a032b2825",
+    "next": [
+      "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "0xc8b6bf89877337188ea84ea93547687225389553",
+      "0x498c0c17e26eeec63375a4a20ba8a91aa357cbcd",
+      "0x5a09a94ee8198d3c474d723337aa58023810022c"
+    ]
+  },
+  {
+    "name": "EnforcedTxGateway",
+    "id": "0x72cacbcfde2d1e19122f8a36a4d6676cd39d7a5d",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x7e87c75bbe7991bbcebd2c7a56f4cfc923bddbcc",
+      "0x642af405bf64660665b37977449c9c536b806318",
+      "0x8fa3b4570b4c96f8036c13b64971ba65867eeb48",
+      "0x56971da63a3c0205184fef096e9ddfc7a8c2d18a",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6"
+    ]
+  },
+  {
+    "name": "ScrollOwner",
+    "id": "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x8432728a257646449245558b8b7dbe51a16c7a4d",
+      "0x3f9041350b661c74c6cbe440c8bd6bc4c168a9fd",
+      "0x0cd4c0f24a0a9f3e2fe80ed385d8ad5a2ffeca44",
+      "0x826714add4dda2b8750794a467c892c0cd49216b",
+      "0x0e58939204eeda84f796fbc86840a50af10ec4f4"
+    ]
+  },
+  {
+    "name": "L1WETHGateway",
+    "id": "0x7ac440cae8eb6328de4fa621163a792c1ea9d4fe",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xa4f400593dffc0ae02f940ab58f6e3cc6fb9fb49",
+      "0xd3c42158682d55e082eabe08a29f7515a97ca307",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "L1ETHGateway",
+    "id": "0x7f2b8c31f88b6006c382775eea88297ec1e3e905",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x546e0bf31fb6e7babd493452e4e6999191367b42",
+      "0x1fcbe079c4bbab37406dab7dfd35acae37d5c55d",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "TimelockEmergency",
+    "id": "0x826714add4dda2b8750794a467c892c0cd49216b",
+    "next": [
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xbda143d49da40c2cda27c40edfbbe8a0d4ae0cbc",
+      "0x1ff1fc1bb4d1f081f6e0a7e7e3240f3ecc5b236f"
+    ]
+  },
+  {
+    "name": "SystemConfig",
+    "id": "0x8432728a257646449245558b8b7dbe51a16c7a4d",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x6a124779fdf107c3f6bcb992731dcaad09f2276a",
+      "0xfaf8f72e54d1089fa1882b6f597bfdff59a8afca",
+      "0xd83c4892bb5aa241b63d8c4c134920111e142a20",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6"
+    ]
+  },
+  {
+    "name": "PlonkVerifierV2",
+    "id": "0x8759e83b6570a0ba46c3ce7eb359f354f816c9a9",
+    "next": []
+  },
+  {
+    "name": "PlonkVerifierV2-1",
+    "id": "0x8c1b52757b5c571adcb5572e992679d4d48e30f7",
+    "next": []
+  },
+  {
+    "name": "Safe",
+    "id": "0x8edc4eadee120d4c51923c515e7c3241c815c2bc",
+    "next": [
+      "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "0xe515cd19e8a67bf367a1d20da6f21035913a2897",
+      "0xafb4c32ecb8e4a86363a2fb2fa27982fbd21ac32",
+      "0x6f166508d423169a3c7cb3e7856ba4bf9fb2cced"
+    ]
+  },
+  {
+    "name": "Scroll Multisig 4",
+    "id": "0x8fa3b4570b4c96f8036c13b64971ba65867eeb48",
+    "next": [
+      "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "0x0c5cc5155b346453154059ad9d2ff695db92f774",
+      "0xfcf1f182fc79047d99e5db0d7113c0efe2ec9402",
+      "0x9337b41709c1c2b938cb460ea3fa9db586b172e0",
+      "0xfc31892c5500abe00974280b28907baa9190e384"
+    ]
+  },
+  {
+    "name": "Safe",
+    "id": "0x9479abfebefeea3c846163012a472b44f305b3d7",
+    "next": [
+      "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "0x8bbf9d47752fed1437bb0ec7ac4a2fac2164f424",
+      "0xc1985e3712b33a5303e097e9ced22e91338ba64d"
+    ]
+  },
+  {
+    "name": "PlonkVerifierPostEuclid-2",
+    "id": "0x9f66505cb1626d06b50ef2597f41de6686e8f79a",
+    "next": []
+  },
+  {
+    "name": "pufETHEscrow",
+    "id": "0xa033ff09f2da45f0e9ae495f525363722df42b2a",
+    "next": [
+      "0x9ebf2f33526cd571f8b2ad312492cb650870cfd6",
+      "0x08d77ea90db9bf6c0d3f66e6b8394da2e81b9a03",
+      "0xc4d46e8402f476f269c379677c99f18e22ea030e",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "ScrollChain",
+    "id": "0xa13baf47339d63b743e7da8741db5456dac1e556",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xb7c8833f5627a8a12558cafa0d0ebd1acbdce43f",
+      "0x2e07f0fba71709bb5e1f045b02152e45b451d75f",
+      "0xfa148514d03420b7b1a13ec74da06d2ca875539c",
+      "0xaa6d0f2490ac3957b97e11afec6f0f250593cac8",
+      "0x4f250b05262240c787a1ee222687c6ec395c628a",
+      "0x9bb163401e8c72573854c4cd968afa7a7b02d25f",
+      "0x8f339292d2b3909574b2beb051a613a987db538f",
+      "0x0d7e906bd9cafa154b048cfa766cc1e54e39af9b",
+      "0x56971da63a3c0205184fef096e9ddfc7a8c2d18a",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0x6f9d816c4ec365fe8fc6898c785be0e2d51bec2c",
+      "0x74b286304576625557629c47e9e8702383d9ef92",
+      "0x054a47b9e2a22af6c0ce55020238c8fecd7d334b",
+      "0xe514a8ae91d164c6fb48a7de336e10c34af4e858",
+      "0x8432728a257646449245558b8b7dbe51a16c7a4d",
+      "0x4cea3e866e7c57fd75cb0ca3e9f5f1151d4ead3f"
+    ]
+  },
+  {
+    "name": "L1CustomERC20Gateway",
+    "id": "0xb2b10a289a229415a124efdef310c10cb004b6ff",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x7f512e2e9dfc4552941d99a5b2405bbcf5781c2c",
+      "0xbad002fb13adffcbcba57a4d4a43886f3f4c56cb",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "L1ERC1155Gateway",
+    "id": "0xb94f7f6abcb811c5ac709de14e37590fccd975b6",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x244bf7aef29f03916569470a51fa0794b62f8cd7",
+      "0xcb4638620e4c6decef26374e71b0dd4871863593",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0x0000000000000000000000000000000000000000"
+    ]
+  },
+  {
+    "name": "Scroll Multisig 2",
+    "id": "0xbda143d49da40c2cda27c40edfbbe8a0d4ae0cbc",
+    "next": [
+      "0x826714add4dda2b8750794a467c892c0cd49216b",
+      "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "0x0c5cc5155b346453154059ad9d2ff695db92f774",
+      "0xee9bb388d320f4305af6a4a1a70c862d3f4d0d5b",
+      "0xfcf1f182fc79047d99e5db0d7113c0efe2ec9402",
+      "0x26ecec198adc0be598311bae8edfd4eea47a56c5"
+    ]
+  },
+  {
+    "name": "Safe",
+    "id": "0xc3ea7c657884bb380b66d79c36adcb5658b01896",
+    "next": [
+      "0x41675c099f32341bf84bfc5382af534df5c7461a",
+      "0x68ba95fb5108cffd9608e8d9d54320acc531ebe3"
+    ]
+  },
+  {
+    "name": "ZkEvmVerifierV2-1",
+    "id": "0xcaecee2e815e7f758c2477f900afa14bddce54b3",
+    "next": [
+      "0x8c1b52757b5c571adcb5572e992679d4d48e30f7"
+    ]
+  },
+  {
+    "name": "PlonkVerifierPostEuclid",
+    "id": "0xd1638c0c7bd6bf49d655d855d353ac8b4f949582",
+    "next": []
+  },
+  {
+    "name": "L1StandardERC20Gateway",
+    "id": "0xd8a791fe2be73eb6e6cf1eb0cb3f36adc9b3f8f9",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x4015fc868c06689abeba4a9dc8fa43b804f6239c",
+      "0x9218732389d80f9b8723c3f32a38865b7a63564a",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "ProxyAdmin",
+    "id": "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+    "next": [
+      "0x56971da63a3c0205184fef096e9ddfc7a8c2d18a",
+      "0x6260af48e8948617b8fa17f4e5cea2d21d21554b",
+      "0x67260a8b73c5b77b55c1805218a42a7a6f98f515",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x72cacbcfde2d1e19122f8a36a4d6676cd39d7a5d",
+      "0x7ac440cae8eb6328de4fa621163a792c1ea9d4fe",
+      "0x7f2b8c31f88b6006c382775eea88297ec1e3e905",
+      "0x8432728a257646449245558b8b7dbe51a16c7a4d",
+      "0xa13baf47339d63b743e7da8741db5456dac1e556",
+      "0xb2b10a289a229415a124efdef310c10cb004b6ff",
+      "0xb94f7f6abcb811c5ac709de14e37590fccd975b6",
+      "0xd8a791fe2be73eb6e6cf1eb0cb3f36adc9b3f8f9",
+      "0xf1af3b23de0a5ca3cab7261cb0061c0d779a5c7b",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6"
+    ]
+  },
+  {
+    "name": "Scroll Multisig 3",
+    "id": "0xefc9d1096fb65c832207e5e7f13c2d1102244dbe",
+    "next": [
+      "0x0e58939204eeda84f796fbc86840a50af10ec4f4",
+      "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
+      "0xfcf6364f5157901f533dd3615a5d8c375f13c072",
+      "0x8460acc9a42d2cf07015a3e838df2e3ab37d30ae",
+      "0xebbeeaa424ae904508465a41c927be594c43dc68",
+      "0xfc31892c5500abe00974280b28907baa9190e384",
+      "0xd33b8405635fe0bd91ad1483778bc5c053d8177f"
+    ]
+  },
+  {
+    "name": "L1USDCGateway",
+    "id": "0xf1af3b23de0a5ca3cab7261cb0061c0d779a5c7b",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0x56ce8a8e8399f6cd5e7e4f549e8bfd673f2aff5e",
+      "0x6667123b5017aab9945f73345848b82d7a953aa8",
+      "0x0000000000000000000000000000000000000000",
+      "0x6774bcbd5cecef1336b5300fb5186a12ddd8b367",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6",
+      "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6"
+    ]
+  },
+  {
+    "name": "L1GatewayRouter",
+    "id": "0xf8b1378579659d8f7ee5f3c929c2f3e332e41fd6",
+    "next": [
+      "0xeb803eb3f501998126bf37bb823646ed3d59d072",
+      "0xb93ac04010bd61f45bf492022a5b49a902f798f3",
+      "0xd8a791fe2be73eb6e6cf1eb0cb3f36adc9b3f8f9",
+      "0x7f2b8c31f88b6006c382775eea88297ec1e3e905",
+      "0x0000000000000000000000000000000000000000",
+      "0x798576400f7d662961ba15c6b3f3d813447a26a6"
+    ]
+  }
+]
