@@ -19,7 +19,7 @@
     "sigma": "^3.0.1"
   },
   "scripts": {
-    "build": "esbuild src/main.ts --bundle --format=esm --outdir=public --sourcemap",
-    "dev": "esbuild src/main.ts --bundle --format=esm --outfile=public/main.js --watch"
+    "dev": "esbuild src/main.ts --bundle --format=esm --outfile=public/main.js --watch --servedir=public --sourcemap",
+    "build": "esbuild src/main.ts --bundle --format=esm --outdir=public --sourcemap"
   }
 }
