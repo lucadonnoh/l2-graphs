@@ -1,17 +1,11 @@
 {
-  "builds": [
+  "version": 2,
+  "buildCommand": "bun run build",
+  "outputDirectory": "public",
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "public"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
