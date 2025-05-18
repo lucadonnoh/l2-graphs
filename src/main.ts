@@ -4,7 +4,7 @@ import randomLayout from "graphology-layout/random";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import { stronglyConnectedComponents } from "graphology-components";
 import { generate, type GraphNode } from "./grapher";
-import projectList from "./projects.json" assert { type: "json" };
+import projectList from "../public/projects.json" assert { type: "json" };
 import { createNodeBorderProgram } from "@sigma/node-border";
 
 export const PALETTE = [

@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "esbuild": "^0.25.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -16,5 +17,9 @@
     "graphology-layout": "^0.6.1",
     "graphology-layout-forceatlas2": "^0.10.1",
     "sigma": "^3.0.1"
+  },
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --format=esm --outdir=public --sourcemap",
+    "dev": "esbuild src/main.ts --bundle --format=esm --outfile=public/main.js --watch"
   }
 }
