@@ -41,6 +41,9 @@ async function loadProject(project: string, btn: HTMLButtonElement) {
   const buttons = menu.querySelectorAll("button");
   Array.from(buttons).forEach(b => b.classList.toggle("active", b === btn));
 
+  // reset the sigma container
+  sigmaDiv.textContent = "";
+
   // kill previous graph
   if (renderer) {
     renderer.kill();
