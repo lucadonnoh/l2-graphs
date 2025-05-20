@@ -5,6 +5,8 @@ export interface GraphNode {
   next: string[];        // addresses it references
 }
 
+const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
+
 /** Recursively collect every hex address string inside an object/array */
 function collectAddresses(value: unknown, out: Set<string>) {
   const ADDRESS_REGEX = /^0x[a-fA-F0-9]{40}$/;
@@ -12,7 +14,10 @@ function collectAddresses(value: unknown, out: Set<string>) {
   if (value == null) return;
 
   if (typeof value === "string") {
-    if (ADDRESS_REGEX.test(value)) out.add(value.toLowerCase());
+    if (ADDRESS_REGEX.test(value)) {
+      const addr = value.toLowerCase();
+      if (addr !== ZERO_ADDRESS) out.add(addr);
+    }
   } else if (Array.isArray(value)) {
     value.forEach(v => collectAddresses(v, out));
   } else if (typeof value === "object") {

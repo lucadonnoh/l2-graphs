@@ -10424,11 +10424,15 @@ var import_graphology_layout_forceatlas2 = __toESM(require_graphology_layout_for
 var import_graphology_components = __toESM(require_graphology_components(), 1);
 
 // src/grapher.ts
+const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 function collectAddresses(value, out) {
   const ADDRESS_REGEX = /^0x[a-fA-F0-9]{40}$/;
   if (value == null) return;
   if (typeof value === "string") {
-    if (ADDRESS_REGEX.test(value)) out.add(value.toLowerCase());
+    if (ADDRESS_REGEX.test(value)) {
+      const addr = value.toLowerCase();
+      if (addr !== ZERO_ADDRESS) out.add(addr);
+    }
   } else if (Array.isArray(value)) {
     value.forEach((v) => collectAddresses(v, out));
   } else if (typeof value === "object") {
