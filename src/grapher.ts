@@ -8,7 +8,7 @@ export interface GraphNode {
 const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 /** Recursively collect every hex address string inside an object/array */
-function collectAddresses(value: unknown, out: Set<string>) {
+export function collectAddresses(value: unknown, out: Set<string>) {
   const ADDRESS_REGEX = /^0x[a-fA-F0-9]{40}$/;
 
   if (value == null) return;
@@ -29,7 +29,7 @@ function collectAddresses(value: unknown, out: Set<string>) {
 }
 
 /** Convert the raw JSON into graph-friendly nodes */
-function toNodes(raw: { entries: Array<Record<string, unknown>> }): GraphNode[] {
+export function toNodes(raw: { entries: Array<Record<string, unknown>> }): GraphNode[] {
   return raw.entries
     .filter(e => e.type === "Contract")
     .map(e => {

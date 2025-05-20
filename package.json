@@ -20,6 +20,7 @@
   },
   "scripts": {
     "dev": "esbuild src/main.ts --bundle --format=esm --outfile=public/main.js --watch --servedir=public --sourcemap",
-    "build": "esbuild src/main.ts --bundle --format=esm --outdir=public --sourcemap"
+    "build": "esbuild src/main.ts --bundle --format=esm --outdir=public --sourcemap",
+    "test": "bun test"
   }
 }
