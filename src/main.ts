@@ -62,6 +62,9 @@ async function loadProject(project: string, btn: HTMLButtonElement) {
   } catch (err) {
     console.error(err);
     sigmaDiv.textContent = `Failed to load ${project}`;
+    btn.classList.add("failed");
+    btn.textContent += " \u2715";
+    btn.disabled = true;
   }
 }
 
